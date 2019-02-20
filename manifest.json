@@ -1,0 +1,16 @@
+{
+   "background": {
+      "scripts": ["js/init.js", "js/background.js"]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "last_visit"
+   },
+
+   "description": "last_visit is like a \"to read list\" ",
+   "manifest_version": 2,
+   "name": "last_visit",
+   "permissions": [ "tabs", "unlimitedStorage", "chrome://favicon/", "webNavigation", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "background" ],
+   "version": "0.9"
+}

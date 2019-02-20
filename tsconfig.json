@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "removeComments": true,
+        "outDir": "js",
+        "target": "es6",
+        "allowJs": true,
+        "noFallthroughCasesInSwitch":false,
+        "emitBOM": true
+    }
+}
